@@ -7,18 +7,22 @@ class school{
     public:
     int ID;
     int classNo;
-    int setdata(int pin1,int mobile_no1)
-    {
+    void setdata(int pin1,int mobile_no1);
+    void getdata();
+
+};
+void school::setdata(int pin1,int mobile_no1)
+{
         pin = pin1;
         mobile_no = mobile_no1; 
-    }
-    int getdata(){
-    cout<<"ID = "<<ID<<endl;
+         }
+void school::getdata(){
+        cout<<"ID = "<<ID<<endl;
     cout<<"ClassNo = "<<classNo<<endl;
     cout<<"PIN = "<<pin<<endl;
     cout<<"Mobile number  = "<<mobile_no<<endl;
+
 }
-};
 int main() {
     school Hritik;
     Hritik.ID=2002;
