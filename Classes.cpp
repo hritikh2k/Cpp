@@ -11,6 +11,14 @@ class school{
     void getdata();
 
 };
+int main() {
+    school Hritik;
+    Hritik.ID=2002;
+    Hritik.classNo=12;
+    Hritik.setdata(123,780777);
+    Hritik.getdata();
+return 0;
+}
 void school::setdata(int pin1,int mobile_no1)
 {
         pin = pin1;
@@ -22,12 +30,4 @@ void school::getdata(){
     cout<<"PIN = "<<pin<<endl;
     cout<<"Mobile number  = "<<mobile_no<<endl;
 
-}
-int main() {
-    school Hritik;
-    Hritik.ID=2002;
-    Hritik.classNo=12;
-    Hritik.setdata(123,780777);
-    Hritik.getdata();
-return 0;
 }
