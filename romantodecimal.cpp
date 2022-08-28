@@ -9,7 +9,6 @@ class rtd{
     public:
     int value(char r);
     void getdata(void);
-    void display(void);
 };
 int main() {
 rtd num1;
